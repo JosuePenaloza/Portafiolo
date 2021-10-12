@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(54, 206, 206);
+    background-color: rgb(177, 228, 228);
 }
 
 .navbar {
@@ -35,11 +35,11 @@ body {
 }
 
 .userP {
-    color: blanchedalmond;
+    color: rgb(17, 11, 1);
 }
 
 h5 {
-    color: blanchedalmond;
+    color: rgb(19, 11, 1);
 }
 
 .card-title {
