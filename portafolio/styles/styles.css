@@ -1,0 +1,126 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+   display: grid;
+   grid-template-columns: 3fr auto;
+   gap: 30px;
+   
+
+   
+   
+}
+
+
+
+.contenedor-galerias {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 3vw;
+    margin: 2vw;
+
+}
+
+.ventana {
+    width: 16vw;
+    height: 16vw;
+    border-radius: 15px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    
+}
+
+.infoUser {
+    width: 20rem;
+    height: 27rem;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1.5vw;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center ;
+    transition: all .3s;
+    margin-top: 40px;
+}
+
+.btn {
+    margin-top: 3rem;
+}
+
+.skils {
+    margin-top: 4vw;
+}
+
+
+
+
+.infoUser:hover{
+    border: 1px solid rgb(103, 15, 218);
+    transform: scale(1.05);
+    
+ }
+
+
+
+.foto img {
+    width: 100px; height: 100px;
+    border-radius: 35%;
+    border: 1px solid rgb(21, 11, 34);
+    transform: scale(1.05);
+
+}
+
+.nombre {
+    color: rgb(51, 120, 194);
+}
+
+.ventana {
+    transition: all .3s;
+}
+
+.ventana:hover {
+   border: 1px solid rgb(103, 15, 218);
+   transform: scale(1.05);
+   cursor: pointer;
+}
+
+.textos {
+    color: rgb(51, 120, 194);
+    height: 100%;
+
+    display: flex;
+    background-position: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fab {
+    font-size: 40px;
+}
+.fa-js-square{
+    color: rgb(243, 247, 24);
+    
+
+}
+
+.fa-html5 {
+    color: darkorange;
+}

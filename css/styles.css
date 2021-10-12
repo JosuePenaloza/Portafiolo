@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(54, 206, 206);
+}
+
+.navbar {
+    background-color: darkblue;
+}
+
+.car :hover {
+    border: 1px solid rgb(103, 15, 218);
+    transform: scale(1.05);
+}
+
+
+.card {
+    margin:70px;
+    margin-top: 40px;
+    
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+
+.d-flex {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+#user2 {
+    border-radius: 5vw;
+}
+
+.userP {
+    color: blanchedalmond;
+}
+
+h5 {
+    color: blanchedalmond;
+}
+
+.card-title {
+    color: black;
+}
